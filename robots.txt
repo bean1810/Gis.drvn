@@ -1,0 +1,21 @@
+User-agent: *
+
+Allow: /detail/*.html
+Allow: /livemap/*
+Allow: /privacy/*
+Allow: /services/*
+
+Disallow: /admin/*
+
+Sitemap: http://goong.io/sitemap.map.xml
+Sitemap: http://goong.io/sitemap.map_1.xml
+Sitemap: http://goong.io/sitemap.map_2.xml
+Sitemap: http://goong.io/sitemap.map_3.xml
+Sitemap: http://goong.io/sitemap.map_4.xml
+Sitemap: http://goong.io/sitemap.map_5.xml
+Sitemap: http://goong.io/sitemap.map_6.xml
+Sitemap: http://goong.io/sitemap.map_7.xml
+Sitemap: http://goong.io/sitemap.map_8.xml
+Sitemap: http://goong.io/sitemap.map_9.xml
+Sitemap: http://goong.io/sitemap.map_10.xml
+Sitemap: http://goong.io/sitemap.map_11.xml

@@ -1,0 +1,6 @@
+{
+    "name": "root/goong-map",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    }
+}

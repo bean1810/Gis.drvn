@@ -1,0 +1,27 @@
+{
+    "name": "CrawlwerTool",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Get data markers!",
+    "permissions": ["tabs", "https://map.coccoc.com/*", "https://api.mapbox.com/*", "https://a.tiles.mapbox.com/*", "https://b.tiles.mapbox.com/*"],
+    "content_scripts" : [{
+        "matches" : ["http://map.coccoc.com/*", "https://map.coccoc.com/*"],
+        "js" : ["jquery-3.1.0.min.js", "script.js", "background.js"]
+    }],
+    "file_system_provider_capabilities": {
+      "configurable": true,
+      "watchable": false,
+      "multiple_mounts": true,
+      "source": "network"
+  },
+  "web_accessible_resources": [
+    "script.js",
+    "load.js",
+    "jquery-3.1.0.min.js",
+    "mk_point_pin.png",
+    "mk_nh.png",
+    "xlsx/*",
+    "sweetalert.min.js",
+    "css/*"
+  ]
+}
